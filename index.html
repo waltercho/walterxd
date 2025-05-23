@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #22223b;
+            margin: 0;
+        }
+        .header {
+            background: linear-gradient(90deg, #8ec5fc 0%, #e0c3fc 100%);
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .blog-title {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            text-shadow: 1px 2px 8px #4b4b4b33;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1.5rem;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: border-bottom 0.2s, color 0.2s;
+            padding-bottom: 2px;
+            font-size: 1.1rem;
+        }
+        .nav a.active, .nav a:hover {
+            border-bottom: 2px solid #fff;
+            color: #f9fafb;
+        }
+        .main-content {
+            margin: 2rem auto;
+            width: 90%;
+            max-width: 700px;
+        }
+        .yo-section {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 16px rgba(142, 197, 252, 0.10);
+            padding: 2rem 2rem 1.5rem 2rem;
+            margin-bottom: 2rem;
+            transition: box-shadow 0.2s;
+        }
+        .yo-section:hover {
+            box-shadow: 0 4px 32px rgba(142, 197, 252, 0.18);
+        }
+        .yo-section h2 {
+            color: #8ec5fc;
+            margin-top: 0;
+        }
+        .yo-section p {
+            font-size: 1.15rem;
+            line-height: 1.7;
+        }
+        .footer {
+            background: #22223b;
+            color: #fff;
+            text-align: center;
+            padding: 1.2rem 0;
+            margin-top: 2rem;
+            font-size: 1rem;
+            letter-spacing: 1px;
+        }
+        @media (max-width: 600px) {
+            .main-content {
+                padding: 0 0.5rem;
+            }
+            .yo-section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="blog-title">Yo</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Yo</a></li>
+                    <li><a href="about.html">Gustos</a></li>
+                    <li><a href="posts/first-post.html">Comida favorita</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content container">
+        <section class="yo-section">
+            <h2>Sobre mí</h2>
+            <p>
+                Mi nombre es Walter, soy un joven de 16 años que ama conocer gente nueva, jugar cualquier cosa y comer. 
+                Mi fecha de nacimiento es el 15 de agosto del 2008. Tengo 2 hermanos: una hermana menor y un hermano menor.
+                Estoy haciendo este blog el 22 de mayo del 2025.
+            </p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Mi blog personal del 2025</p>
+        </div>
+    </footer>
+
+
+</html></body></body>
+</html>
